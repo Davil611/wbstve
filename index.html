@@ -1,25 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Result Check</title> 
-    <link rel="stylesheet" href="style.css" type="text"/>
-    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Result Checking</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to the Student Result Check Website</h1>
-    <p>Please enter your registration number below:</p>
-    <input type="text" id="regNo" name="regNo">
-    <button onclick="checkResult()">Check Result</button>
-
-    <script>
-        function checkResult() {
-            let registrationNumber = document.getElementById('regNo').value;
-            // Code to check the result using the registration number
-            alert(`Checking result for registration number: ${registrationNumber}`);
-        }
-    </script>
+<h1>Welcome to Result Checking Portal</h1>
+<p>Please enter your registration number:</p>
+<input type="text" id="regNo" placeholder="Enter Registration Number">
+<button id="checkBtn">Check Result</button>
+<a href="#">Click here for touch link</a>
 </body>
 </html>
